@@ -1,0 +1,34 @@
+body{
+	font-family: 'Anton', sans-serif;
+  font-size: 60px;
+	color: #000;
+  display: flex;
+  flex-direction: column;
+  height: 100vh;
+}
+
+.middle{
+  	display: flex;
+    flex: 10;
+    flex-direction: row;
+}
+
+header,footer, nav, main, aside{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+header,footer{
+  flex: 1;
+  background-color: #F0F8FF;
+}
+
+nav,aside{
+  flex: 1;
+  background-color: #00FFFF;
+}
+
+main{
+  flex: 3;
+}
